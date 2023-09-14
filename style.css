@@ -1,75 +1,44 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    width: 600px;
+    background-color: #000;
 }
 
-.content {
-
+.post {
+  width: 600px;
+  background-color: white;
+  margin: auto;
 }
 
-#headerpage {
-   justify-content: center;
-   display: flex;
-   padding: 20px;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-h1 {
-    justify-content: center;
-    display: flex;
-    font-style: normal;
-    font-size:larger;
-}
-
-p {
-    display: flex;
-}
-
-.backfeed { 
-
-
-}
-      
-
-.photofeed {
-
-}
-
-.headfeed {
-
-}
-
-.datename {
-    display: flex;
-    justify-content: flex-start;
-    gap: 500px; 
-    align-items: center;
-}
-
-.photoname {
-    width: 1000px;
-}
-
-
-.photodate {
-    display: flex;
-    text-align: right;
-}
-
-.intimg {
-
+.left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 .icons {
-
-
-.description {
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
 }
 
-.comments {
+svg {
+    width: 40px;
+    height: 40px;
+    fill: #000;
+}
 
+
+.likes {
+  display: flex;
+  gap: 0.5rem;
+}
+
+img {
+  width: 100%;
 }
